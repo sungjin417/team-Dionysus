@@ -1,10 +1,15 @@
+import { BiBox } from 'react-icons/bi';
 import './App.css';
-import WiskyList from './pages/wisky';
-import List from './pages/review';
+import Box from './Box';
+// import WiskyList1 from './pages/wisky';
+import Recommend from './Box';
+
+
+
 function App() {
   return (
    <>
-    <List />
+    <Recommend />
    </>
   );
 }
